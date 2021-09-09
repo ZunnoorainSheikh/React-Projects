@@ -68,7 +68,7 @@ export default function Navbar(props) {
                 <a
                   className="nav-link disabled"
                   href="/"
-                  tabindex="-1"
+                  tabIndex="-1"
                   aria-disabled="true"
                 >
                   Error 404
@@ -94,7 +94,7 @@ export default function Navbar(props) {
                 id="flexSwitchCheckDefault"
                 onClick={props.toggleMode}
               />
-              <label className="form-check-label" for="flexSwitchCheckDefault">
+              <label className="form-check-label" htmlFor="flexSwitchCheckDefault">
                 {props.modeText}
               </label>
             </div>
